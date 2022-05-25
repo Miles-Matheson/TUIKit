@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name         = "TUIKit"
 
-  s.version      = "0.0.3.3"
+  s.version      = "0.0.3.4"
 
   s.summary      = "iOS TUIKit TUIKit"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/Miles-Matheson/TUIKit.git", :tag => "0.0.3.3" }
+  s.source       = { :git => "https://github.com/Miles-Matheson/TUIKit.git", :tag => "0.0.3.4" }
 
   s.requires_arc = true
 
@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |core|
     core.source_files   = "TUIKit/**/*.{h,m}"
     core.resources      = "TUIKit/Resources/*.{png,bundle}"
-    core.dependency 'TXIMSDK_Plus_iOS','~> 5.6.1200'
-core.dependency 'ReactiveObjC','~> 3.1.1'
+    core.dependency 'TXIMSDK_Plus_iOS','~> 5.6.1200.0'
+core.dependency 'ReactiveObjC','~> 3.1.1.0'
 core.dependency 'SDWebImage','~> 5.9.0.0'
 core.dependency 'Masonry','~> 0.2.0.0'
 core.dependency 'SVProgressHUD'
