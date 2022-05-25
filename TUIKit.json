@@ -4,7 +4,7 @@
   "summary": "A short description of Dookayersteamegt.",
   "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Miles-Matheson/Dookayersteamegt.git",
+  "homepage": "https://github.com/Miles-Matheson/TUIKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
     "755974811@qq.com": "755974811@qq.com"
   },
   "source": {
-    "git": "https://github.com/Miles-Matheson/Dookayersteamegt.git",
+    "git": "https://github.com/Miles-Matheson/TUIKit.git",
     "tag": "0.0.1"
   },
   "platforms": {
