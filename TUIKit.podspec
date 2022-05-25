@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name         = "TUIKit"
 
-  s.version      = "0.0.3.2"
+  s.version      = "0.0.3.3"
 
   s.summary      = "iOS TUIKit TUIKit"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/Miles-Matheson/TUIKit.git", :tag => "0.0.3.2" }
+  s.source       = { :git => "https://github.com/Miles-Matheson/TUIKit.git", :tag => "0.0.3.3" }
 
   s.requires_arc = true
 
@@ -40,7 +40,6 @@ core.dependency 'BRPickerView'
 core.dependency 'FMDB'
 core.dependency 'IQKeyboardManager'
 core.dependency 'MJExtension'
-core.dependency 'SGPagingView'
 core.dependency 'TZImagePickerController'
 core.dependency 'IAPHelper'
 core.dependency 'MJRefresh'
